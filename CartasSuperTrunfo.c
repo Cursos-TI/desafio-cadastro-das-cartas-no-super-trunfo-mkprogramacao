@@ -11,7 +11,7 @@ int main() {
     float pib_1, pib_2;
     int pontos_turisticos_1, pontos_turisticos_2;
 
-    // cadastro da carta
+    // cadastro da carta 1
     printf("carta 1: \n");
 
     printf("estado: ");
@@ -30,7 +30,7 @@ int main() {
     printf("números de pontos turisticos: ");
     scanf("%d", &pontos_turisticos_1);
 
-    // dados da carta
+    // dados da carta 1
     printf("estado: %s \n", estado_1);
     printf("código da carta: %s\n", codigo_da_carta_1);
     printf("nome da cidade: %s", nome_da_cidade_1); // fgets ja inclui \n
@@ -39,7 +39,7 @@ int main() {
     printf("PIB: %.2f\n", pib_1);
     printf("número de pontos turisticos: %d\n", pontos_turisticos_1);
 
-
+    // cadastro da carta 2
     printf("carta 2: \n");
 
     printf("estado: ");
@@ -58,7 +58,7 @@ int main() {
     printf("números de pontos turisticos: ");
     scanf("%d", &pontos_turisticos_2);
 
-
+    // dados da carta 2
     printf("estado: %s \n", estado_2);
     printf("código da carta: %s\n", codigo_da_carta_2);
     printf("nome da cidade: %s", nome_da_cidade_2);
