@@ -7,7 +7,7 @@ int main() {
     char codigo_da_carta_1[4], codigo_da_carta_2[4];
     char nome_da_cidade_1[50], nome_da_cidade_2[50];
     int populacao_1, populacao_2;
-    float area_em_km²_1, area_em_km²_2;
+    float area_em_km_1, area_em_km_2;
     float pib_1, pib_2;
     int pontos_turisticos_1, pontos_turisticos_2;
 
@@ -24,7 +24,7 @@ int main() {
     printf("populacão: ");
     scanf("%d", &populacao_1);
     printf("Área km²: ");
-    scanf("%f", &area_em_km²_1);
+    scanf("%f", &area_em_km_1);
     printf("PIB: ");
     scanf("%f", &pib_1);
     printf("números de pontos turisticos: ");
@@ -35,7 +35,7 @@ int main() {
     printf("código da carta: %s\n", codigo_da_carta_1);
     printf("nome da cidade: %s", nome_da_cidade_1); // fgets ja inclui \n
     printf("populão: %d\n", populacao_1);
-    printf("Área km²: %.2f\n", area_em_km²_1);
+    printf("Área km²: %.2f\n", area_em_km_1);
     printf("PIB: %.2f\n", pib_1);
     printf("número de pontos turisticos: %d\n", pontos_turisticos_1);
 
@@ -52,7 +52,7 @@ int main() {
     printf("populacão: ");
     scanf("%d", &populacao_2);
     printf("Área km²: ");
-    scanf("%f", &area_em_km²_2);
+    scanf("%f", &area_em_km_2);
     printf("PIB: ");
     scanf("%f", &pib_2);
     printf("números de pontos turisticos: ");
@@ -63,7 +63,7 @@ int main() {
     printf("código da carta: %s\n", codigo_da_carta_2);
     printf("nome da cidade: %s", nome_da_cidade_2);
     printf("populão: %d\n", populacao_2);
-    printf("Área km²: %.2f\n", area_em_km²_2);
+    printf("Área km²: %.2f\n", area_em_km_2);
     printf("PIB: %.2f\n", pib_1);
     printf("número de pontos turisticos: %d\n", pontos_turisticos_2);
     
